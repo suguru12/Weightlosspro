@@ -1,0 +1,93 @@
+/* testimoni.css */
+.cards__container {
+    width: 100%;
+    background-color:#dcdcdc;
+    overflow: hidden; /* Prevents horizontal scrolling on smaller screens */
+  }
+  
+  .carousel-item {
+    height: 500px; /* Adjust the height according to your needs */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .carousel-item img {
+    max-width: 70%;
+    height: auto;
+    max-height: 200px; /* Adjust the max height of the image according to your needs */
+    margin-bottom: 1rem;
+  }
+  
+  .carousel-item h5 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .carousel-item p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .carousel-item .text-muted {
+    font-style: italic;
+  }
+  
+  .carousel-item ul {
+    margin-top: 1rem;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .carousel-item ul li {
+    display: inline-block;
+    margin-right: 0.5rem;
+  }
+  
+  .carousel-item ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .carousel-item ul li .star {
+    color: #ffc107;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 768px) {
+    .carousel-item {
+      height: auto;
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .carousel-item img {
+      max-height: 150px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .carousel-item h5 {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .carousel-item {
+      height: auto;
+      flex-direction: column;
+      padding: 1rem;
+    }
+  
+    .carousel-item img {
+      max-height: 100px;
+      margin-bottom: 0.5rem;
+    }
+  
+    .carousel-item h5 {
+      font-size: 1.1rem;
+    }
+  
+    .carousel-item p {
+      margin-bottom: 0.3rem;
+    }
+  }

@@ -1,0 +1,66 @@
+:root {
+    --primary:#18445c;
+  }
+  
+  .btn {
+    padding: 8px 20px;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn--primary {
+    background-color: var(--primary);
+    color: #fff;
+    border: 1px solid #fca311;
+  }
+  
+  .btn--outline {
+    background-color: transparent;
+    color: #fff;
+    padding: 8px 20px;
+    border: 1px solid  #fca311;
+    transition: all 0.3s ease-out;
+  }
+  
+  .btn--medium {
+    padding: 8px 20px;
+    font-size: 18px;
+    background-color: var(--primary);
+  }
+  
+  .btn--large {
+    padding: 12px 26px;
+    font-size: 20px;
+    background-color: var(--primary);
+  }
+  
+  .btn--large:hover,
+  .btn--medium:hover {
+    transition: all 0.3s ease-out;
+    background: #fff;
+    color: #242424;
+    transition: 250ms;
+  }
+
+  .FloatingCtaButton_animateBottom__2upC0 {
+    animation-name: FloatingCtaButton_animatebottom__npx6J;
+    animation-duration: .3s;
+}
+
+.FloatingCtaButton_FloatingCtaBtn__doEWb {
+    z-index: 5;
+    display: auto;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 4px 30px 0 rgba(0,0,0,.1);
+    padding: 20px;
+}
+.FloatingCtaButton_FloatingCtaBtn__container__9ah6Q {
+  padding: 0;
+  margin: auto;
+}

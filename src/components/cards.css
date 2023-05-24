@@ -1,0 +1,50 @@
+.cards__container
+{
+  padding: 30px;
+  z-index: -1;
+}
+  .card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding:30px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  }
+  
+.icon
+ {
+    display: inline-block;
+    line-height: 0.5;
+    transition: all .3s;
+    color: #818a91;
+    font-size: 35px;
+    text-align: center;
+}
+span{
+  
+  width: 1.5em;
+  height: 2em;
+  position: relative;
+  display: block;
+  padding:15px 50px 40px 10px;
+  margin-left: 40%;
+  border-radius: 30%;
+  border:3px solid #18445c;
+}
+h4{
+  text-align: center;
+  
+}
+p{
+  text-align: justify;
+  color: #818a91;
+  
+}
+.icon:hover
+{
+  color:#18445c;
+}
