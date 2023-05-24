@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import bod from '../images/bod.avif';
 import { Button } from './Button';
-import { useNavigate } from 'react-router-dom';
 
 const mystyle={
     marginTop:'15%',
@@ -11,8 +9,7 @@ const mystyle={
 }
 
 function Body() {
-  const history = useNavigate();
-  
+
         return (
         <div className='container'>
          <div className='row'>
@@ -33,7 +30,7 @@ function Body() {
                      className='btns'
                      buttonStyle='btn--primary'
                      buttonSize='btn--large'
-                     onClick={() => history('/')}
+                     onClick={console.log('hey')}
                      
                  >
                  START ASSESSMENT
@@ -49,7 +46,6 @@ function Body() {
           </div>
           </div>
         );
-       
       }
       
 
