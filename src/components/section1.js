@@ -13,7 +13,7 @@ function Section() {
          <div className='row'>
             <div className='col cols-md-4'>
                 <div className='hero-container'>
-                <img src={wo} alt='bod' width={500} height={500} /> 
+                <img src={wo} alt='bod' width={400} height={400} /> 
             
             
                 </div>   

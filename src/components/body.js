@@ -1,6 +1,7 @@
 import React from 'react';
 import bod from '../images/bod.avif';
-import { Button } from './Button';
+//import { Button } from './Button';
+import './But.css';
 
 const mystyle={
     marginTop:'15%',
@@ -26,19 +27,21 @@ function Body() {
                 </li></ul>
                 <br></br><br></br>
                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <Button 
+                {/* <Button 
                      className='btns'
                      buttonStyle='btn--primary'
                      buttonSize='btn--large'
                      onClick={console.log('hey')}
-                     
+    
                  >
                  START ASSESSMENT
-                 </Button>
+                 </Button> */}
+                 <button type="button" class="btn--primary btn--medium btn--outline">Start Assessment
+            </button>
             </div>
          <div className='col cols-md-4'>
           <div className='hero-container'>
-           <img src={bod} alt='bod' width={500} height={500} /> 
+           <img src={bod} alt='bod' width={400} height={400} /> 
            
             
               </div>

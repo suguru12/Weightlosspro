@@ -5,9 +5,9 @@ import person3 from '../images/person3.webp';
 
 function Doctors() {
   return (
-  <div style={{backgroundColor:'white'}}>
-     <div className='row' >
-          <div class="pt-28 pb-20 flex justify-center items-center">
+    <div className='cards__container' style={{backgroundColor:'#efefef'}}>
+    <div className='row' >
+          <div class="pt-28 pb-10 flex justify-center items-center">
             <div class="text-center space-y-3">
                 <h1 class="text-[28px] md:text-[40px] text-200 font-arialBold"style={{marginTop:'30px'}}>Meet our weight loss experts</h1>
                 <div>
