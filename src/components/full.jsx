@@ -1,5 +1,5 @@
-
-import Footer from './footer';
+import React from 'react';
+//import Footer from './footer';
 import Body from './body';
 import Cards from './card';
 import Section from './section1';
@@ -11,12 +11,12 @@ function Full() {
     return (
       <div>
         <Body/><br></br>
-        <Cards/><br></br>
+        <Cards/>
         {/* <Doctors/> */}
         <Productpage/>
         <Section/>
-        {/* <Carousel/> */}
-        <Footer/>  
+       {/* <Carousel/> */}
+        
   </div>
     )
   }

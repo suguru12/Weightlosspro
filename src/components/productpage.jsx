@@ -1,6 +1,4 @@
 import React from 'react';
-//import './cards.css';
-//import'./homepro.css';
 import'./Productpage.css';
 import'./But.css';
 import saxenda from'../images/saxenda.webp';
@@ -9,8 +7,8 @@ import { Link } from 'react-router-dom';
 
 function Productpage() {
      return (
-       
-     <div className='cards__container' style={{backgroundColor:'white'}}>
+      
+     <div className='card-container' style={{ background: 'linear-gradient(to top, #44677b, #dcdcdc, #dcdcdc)'}}>
        <center><h1>Weight Loss Products</h1></center>
           <div className='row'>
              <div className='col-md-4 col-sm-6'>

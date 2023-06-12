@@ -14,7 +14,7 @@ function Body() {
         return (
         <div className='container'>
          <div className='row'>
-            <div className='col cols-md-4'>
+            <div className='col-md-6 col-sm-8'>
             <h3 style={mystyle}>STOP WISHING..START DOING</h3>
             <ul>
             <li style={{marginTop:'50px',listStyleType:'none',marginLeft:'10%',}}>
@@ -39,7 +39,7 @@ function Body() {
                  <button type="button" class="btn--primary btn--medium btn--outline">Start Assessment
             </button>
             </div>
-         <div className='col cols-md-4'>
+         <div className='col-md-6 col-sm-8'>
           <div className='hero-container'>
            <img src={bod} alt='bod' width={400} height={400} /> 
            

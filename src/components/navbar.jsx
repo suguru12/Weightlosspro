@@ -16,7 +16,7 @@ function Navbar() {
 
       useEffect(() => {
         const handleScroll = () => {
-          if (window.pageYOffset > 0) {
+          if (window.pageYOffset >= isSticky) {
             setIsSticky(true);
           } else {
             setIsSticky(false);
@@ -41,7 +41,7 @@ function Navbar() {
       useEffect(() => {
         showButton();
       }, []);
-    
+      
       window.addEventListener('resize', showButton);
 
       const handleSignUpClick = () => {
@@ -65,7 +65,7 @@ function Navbar() {
                 <Link to='/' className='nav-links' onClick={closeMobileMenu}>Home</Link>
             </li>
             <li className='nav-item'>
-                <Link to='/About' className='nav-links' onClick={closeMobileMenu}>About</Link>
+                <Link to='/Aboutus' className='nav-links' onClick={closeMobileMenu}>About</Link>
             </li>
             <li className='nav-item'>
                 <Link to='/Productpage' className='nav-links' onClick={closeMobileMenu}>Products</Link>

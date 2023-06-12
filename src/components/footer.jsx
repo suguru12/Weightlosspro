@@ -8,9 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-        Mon – Fri: 09:00 – 17:00<br></br>
-        Saturday: 10:00 – 14:00<br></br>
-        Sunday: By Appointment Only
+        Weight Loss program
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
